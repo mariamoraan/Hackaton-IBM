@@ -1,10 +1,10 @@
 <div class="main">
     <div class="elems">
-        <div class="elem">
-            <img src="../../assets/stock/escalada.jpeg">
-            <div class="title">ESCALADA</div>
+        <div class="elem"  *ngFor="let asociation of asociations">
+            <img src={{asociation.img}}>
+            <div class="title">{{asociation.name}}</div>
             <div class="description">
-                Loreipsum Loreipsum Loreipsum Loreipsum Loreipsum Loreipsum
+                {{asociation.description}}
             </div>
             <button>Saber más</button>
         </div>
