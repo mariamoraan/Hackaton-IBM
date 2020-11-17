@@ -1,0 +1,36 @@
+.elem{
+
+    height: 50vh;
+    width: 20vw;
+
+    
+    border-radius: 10px;
+    background: white;
+    
+
+    text-align: center;
+    
+
+    margin: 5vh;
+
+    -webkit-box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.elem img{
+    width: 20vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    margin-bottom: 10px;
+}
+
+.elem .title{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.elem .description{
+    margin-bottom: 15px;
+}

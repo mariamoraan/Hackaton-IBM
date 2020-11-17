@@ -1,12 +1,15 @@
 <div class="main">
     <div class="header">
-        
+        <img src="../../assets/stock/uni.jpg">
+        <h1>Universidad Carlos III de Madrid</h1>
     </div>
     <div class="elems">
+        <div class="elem" *ngFor="let activity of activities">
+            <img class="elem-img" src={{activity.img}}>
+            <p>{{activity.name}}</p>
+        </div>
 
     </div>
-    <div class="watson">
-
-    </div>
+  
 
 </div>
