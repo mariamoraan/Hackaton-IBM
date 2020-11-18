@@ -22,6 +22,12 @@ export class AsociationsComponent implements OnInit {
       'description':'Loreipsum Loreipsum Loreipsum Loreipsum Loreipsum Loreipsum', 
       'link': ''
     },
+    {
+      'name':'BEST', 
+      'img':"../../assets/stock/best.jpeg", 
+      'description':'Loreipsum Loreipsum Loreipsum Loreipsum Loreipsum Loreipsum', 
+      'link': ''
+    },
   ]
   ngOnInit(): void {
   }

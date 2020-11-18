@@ -2,6 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1.
 
+## Objetive 
+The objetive of this proyects is to create an app service that unify all the services that a university has. 
+
+To allow access from all devices, a web has been implemented.
+
+To To improve the user experience, there are some processes that are done interacting with Watson, the IBM virtual assistent, It have been developed with IBM Cloud.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

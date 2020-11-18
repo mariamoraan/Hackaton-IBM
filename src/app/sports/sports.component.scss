@@ -113,3 +113,26 @@ $blu: #9153FF;
     background-color: $blu;
     font-weight: bolder;
 }
+
+
+@media screen and (max-device-width : 480px) {
+
+   
+    .elems{
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center; /* requerido para alineación horizontal */
+       
+    }
+    .elem{
+        display: inline-block;
+        text-align: center;
+        width: 50vw;
+        height: 50vh;
+    }
+
+    .elem img{
+        width: 50vw;
+        height: 15vh;
+    }
+}
