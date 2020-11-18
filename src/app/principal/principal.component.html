@@ -1,12 +1,22 @@
 <div class="main">
     <div class="header">
-        
+        <img src="../../assets/stock/uni.jpg">
+        <h1>Universidad Carlos III de Madrid</h1>
     </div>
     <div class="elems">
+        <div class="elem" *ngFor="let activity of activities" >
+            <a  *ngIf="activity.link != null" href="{{activity.link}}">
+            <img class="elem-img" src={{activity.img}}  alt="{{activity.name}}">
+            <p>{{activity.name}}</p>
+            </a>   
+            
+            <a *ngIf="activity.router != null" [routerLink]=[activity.router]>
+                <img class="elem-img" src={{activity.img}} >
+                <p>{{activity.name}}</p>
+            </a>
+        </div>
 
     </div>
-    <div class="watson">
-
-    </div>
+  
 
 </div>

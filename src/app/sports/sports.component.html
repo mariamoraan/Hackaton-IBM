@@ -1,0 +1,17 @@
+<div class="main">
+    <div class="header">
+        <img src="../../assets/stock/uni.jpg">
+        <h1>Universidad Carlos III de Madrid</h1>
+        <a [routerLink]="['principal']"><p>Home</p></a>
+    </div>
+    <div class="elems">
+        <div class="elem"  *ngFor="let sport of sports">
+            <img src={{sport.img}}>
+            <div class="title">{{sport.name}}</div>
+            <div class="description">
+                {{sport.description}}
+            </div>
+            <button class="btn" type="submit">Saber más</button>
+        </div>
+    </div>
+</div>

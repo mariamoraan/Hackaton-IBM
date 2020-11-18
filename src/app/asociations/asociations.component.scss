@@ -1,0 +1,116 @@
+
+$blu: #9153FF;
+.header{
+    
+    width: 100vw;
+    text-align: center;
+
+    
+    
+    height: 30vh;
+
+    -webkit-box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.75);
+    
+    font-family: Helvetica;
+    color: #303A57;
+    
+    
+
+}
+
+.header img{
+    max-height: 20vh;
+    max-width: 20vw;
+    margin-right: 20px;
+}
+.header h1{
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+
+    
+}
+
+.header p{
+    margin: 0;
+    padding: 0;
+}
+
+.header p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.header a{
+    text-decoration: none;
+    color:#303A57;
+}
+.elems{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.elem{
+
+    height: 50vh;
+    width: 20vw;
+
+    
+    border-radius: 10px;
+    background: white;
+    
+
+    text-align: center;
+    
+
+    margin: 5vh;
+
+    -webkit-box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+.elem img{
+    width: 20vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    margin-bottom: 10px;
+}
+
+.elem .title{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.elem .description{
+    margin-bottom: 15px;
+}
+
+.btn{
+    background-color: white;
+    border-color: $blu;
+    color: $blu;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+
+
+
+.btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: $blu;
+    font-weight: bolder;
+    
+}
