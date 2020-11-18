@@ -1,8 +1,4 @@
-
-$salmon: #FFBBAF;
-$blue: #3D3D3D;
-$purple: #9C0FFA;
-
+$blu: #9153FF;
 
 .header{
     
@@ -39,23 +35,39 @@ $purple: #9C0FFA;
     
 }
 
+.header p{
+    margin: 0;
+    padding: 0;
+}
 
+.header p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.header a{
+    text-decoration: none;
+    color:#303A57;
+}
 .elems{
-    width: 100vw;
     display: flex;
-    justify-content: center;
     align-items: center;
+    text-align: center;
+    justify-content: center;
     flex-wrap: wrap;
-    
 }
 
 .elem{
-    height: 20vh;
-    width: 15vw;
+
+    height: 50vh;
+    width: 20vw;
+
+    
     border-radius: 10px;
     background: white;
     
-    
+
+    text-align: center;
     
 
     margin: 5vh;
@@ -66,38 +78,38 @@ $purple: #9C0FFA;
 }
 
 .elem:hover{
-    background: black;
-    color: white;
     cursor: pointer;
 }
 
-a{
-   
-    text-decoration: none;
-    color: black;
-}
-
-a:hover{
-    color: white;
-}
-
-.elem p{
-    margin: 0;
-    padding: 0;
-    
-
-    margin-top: 5px;
-    text-align: center;
-  
-}
-
-.elem-img{
-    max-height: 15vh;
-    width: 15vw; 
-
+.elem img{
+    width: 20vw;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+
+    margin-bottom: 10px;
 }
 
+.elem .title{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
 
+.elem .description{
+    margin-bottom: 15px;
+}
 
+.btn{
+    background-color: white;
+    border-color: $blu;
+    color: $blu;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: $blu;
+    font-weight: bolder;
+}

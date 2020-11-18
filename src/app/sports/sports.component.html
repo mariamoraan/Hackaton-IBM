@@ -5,11 +5,11 @@
         <a [routerLink]="['principal']"><p>Home</p></a>
     </div>
     <div class="elems">
-        <div class="elem"  *ngFor="let asociation of asociations">
-            <img src={{asociation.img}}>
-            <div class="title">{{asociation.name}}</div>
+        <div class="elem"  *ngFor="let sport of sports">
+            <img src={{sport.img}}>
+            <div class="title">{{sport.name}}</div>
             <div class="description">
-                {{asociation.description}}
+                {{sport.description}}
             </div>
             <button class="btn" type="submit">Saber más</button>
         </div>
