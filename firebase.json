@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "Hackaton/dist",
+    "public": "dist",
     "ignore": [
       "firebase.json",
       "**/.*",
